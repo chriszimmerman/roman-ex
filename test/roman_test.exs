@@ -45,4 +45,36 @@ defmodule RomanTest do
 	test "30 is XXX in roman numerals" do
 		assert Roman.roman(30) == "XXX"
 	end
+
+	test "40 is XL in roman numerals" do
+		assert Roman.roman(40) === "XL"
+	end
+
+	test "50 is L in roman numerals" do
+		assert Roman.roman(50) === "L"
+	end
+
+	test "90 is XC in roman numerals" do
+		assert Roman.roman(90) === "XC"
+	end
+
+	test "100 is C in roman numerals" do
+		assert Roman.roman(100) === "C"
+	end
+
+	test "400 is CD in roman numerals" do
+		assert Roman.roman(400) === "CD"
+	end
+
+	test "500 is D in roman numerals" do
+		assert Roman.roman(500) === "D"
+	end
+
+	test "900 is CM in roman numerals" do
+		assert Roman.roman(900) === "CM"
+	end
+
+	test "1000 is M in roman numerals" do
+		assert Roman.roman(1000) === "M"
+	end
 end
