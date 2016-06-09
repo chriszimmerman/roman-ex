@@ -1,20 +1,4 @@
-# Roman
+# Roman 
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add roman to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:roman, "~> 0.0.1"}]
-        end
-
-  2. Ensure roman is started before your application:
-
-        def application do
-          [applications: [:roman]]
-        end
+This project contains an implementation and tests for the Roman numerals kata.
 
